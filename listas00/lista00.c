@@ -64,7 +64,7 @@ Lista01* excluirLista(Lista01* argLista, int infoBusca){
 		if (ptrTrb == NULL)
 			return argLista;
 		if (ptrAnt == NULL){
-			//remove do inicio da lista
+			//remove do IndIniLst da lista
 			argLista = ptrTrb -> ptrProx;
 					}
 		else
