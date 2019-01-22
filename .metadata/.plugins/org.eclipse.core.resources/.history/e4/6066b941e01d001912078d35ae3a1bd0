@@ -1,0 +1,34 @@
+/*
+ * Seudo.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+1. VERIFICAMOS SI EXISTE ESPACIO
+2. Incrementamos el topo de la fila
+3. aramazenar as informacoes nessa nova area
+
+<01> ALGORITMO Empilha
+<02>
+<03> Pilha				{Lista alocada sequencialmente em memoria}
+<04> PtrTop				{Indica a extremidade da pilha}
+<05> IndFimPhila		{Endereco maximo para alocacao da pilha }
+<06>
+<07> INICIO
+<08>	SE PtrTop = IndFimPilha
+<09>	ENTAO
+<10>		Overflow
+<11>	SENAO
+<12>		INICIO
+<13>			PtrTopo <- PtrTopo+1
+<14>			Pilha (PtrTopo)<-Informacao
+<15>		FIM
+<16> FIM
+<17>
+
+
+
+
+
+

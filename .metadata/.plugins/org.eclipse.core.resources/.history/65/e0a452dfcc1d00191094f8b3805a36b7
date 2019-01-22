@@ -1,0 +1,37 @@
+/*
+ * pilha00.h
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+typedef struct elemento{
+	int info;
+	struct elemento * link;
+	}FormatoNo;
+
+
+typedef struct lista{
+	FormatoNo * IndIniLst;
+	FormatoNo * IndFimLst;
+}FormatoLst;
+
+
+typedef struct pilha{
+	FormatoLst * l;
+}FormatoPlha;
+
+
+FormatoLst * criarLista();
+FormatoPlha * criarPilha();
+int insereIndIniLst(int valor, FormatoLst * l);
+void insereFinal(int valor, FormatoLst * l);
+int removeIndIniLst(FormatoLst * l);
+int estaVazia(FormatoLst * l);
+int removeFinal(FormatoLst * l);
+void inserir(int pos, int valor, FormatoLst * l);
+int remover(int pos, FormatoLst * l);
+void empilhar(int valor, FormatoPlha * p);
+
+
+

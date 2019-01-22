@@ -33,3 +33,3533 @@ make all
 make: No se hace nada para 'all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘removeInicio’:
+../lista01.c:51:15: error: wrong type argument to unary minus
+        return -argLista;
+               ^
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:65:15: warning: return makes integer from pointer without a cast [-Wint-conversion]
+        return argLista;
+               ^~~~~~~~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:72:15: error: wrong type argument to unary minus
+        return -argLista;
+               ^
+../lista01.c: In function ‘inserir’:
+../lista01.c:100:29: error: invalid operands to binary - (have ‘int’ and ‘t_lista * {aka struct lista *}’)
+          for(i = 0; i < (pos-argLista) && atual != NULL ;i++){
+                             ^
+../lista01.c: In function ‘remover’:
+../lista01.c:117:10: error: wrong type argument to unary minus
+   return -argLista;
+          ^
+../lista01.c:120:10: error: wrong type argument to unary minus
+   return -argLista;
+          ^
+../lista01.c:142:9: error: wrong type argument to unary minus
+  return -argLista;
+         ^
+../lista01.c: In function ‘busca1’:
+../lista01.c:175:16: error: wrong type argument to unary minus
+         return -argLista;
+                ^
+../lista01.c: In function ‘remover’:
+../lista01.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+subdir.mk:18: fallo en las instrucciones para el objetivo 'lista01.o'
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘main’:
+../lista01.c:216:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make: *** [lista01.o] Error 1
+subdir.mk:18: fallo en las instrucciones para el objetivo 'lista01.o'
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+Building file: ../lista00.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista00.d" -MT"lista00.d" -o "lista00.o" "../lista00.c"
+Finished building: ../lista00.c
+ 
+Building target: listas00
+Invoking: GCC C Linker
+gcc  -o "listas00"  ./lista00.o ./main.o   
+Finished building target: listas00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:48:23: error: ‘FormatoNo {aka struct elemento}’ has no member named ‘info’; did you mean ‘Info’?
+subdir.mk:18: fallo en las instrucciones para el objetivo 'lista01.o'
+    argLista->IndFimLst->info = novoElemento;
+                       ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:48:31: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    argLista->IndFimLst-> Info = novoElemento;
+                               ^
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:39: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                       ^~~~~~
+../main.c:13:39: warning: incompatible implicit declaration of built-in function ‘malloc’
+../main.c:13:39: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:1: warning: implicit declaration of function ‘insereFinalLst’ [-Wimplicit-function-declaration]
+ insereFinalLst(1,argLista);
+ ^~~~~~~~~~~~~~
+../main.c:16:1: warning: implicit declaration of function ‘imprimeLista’ [-Wimplicit-function-declaration]
+ imprimeLista(argLista);
+ ^~~~~~~~~~~~
+make: *** [main.o] Error 1
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:39: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                       ^~~~~~
+../main.c:13:39: warning: incompatible implicit declaration of built-in function ‘malloc’
+../main.c:13:39: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:1: warning: implicit declaration of function ‘insereFinalLst’ [-Wimplicit-function-declaration]
+ insereFinalLst(1,argLista);
+ ^~~~~~~~~~~~~~
+../main.c:16:1: warning: implicit declaration of function ‘imprimeLista’ [-Wimplicit-function-declaration]
+ imprimeLista(argLista);
+ ^~~~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:15:40: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                        ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:15:40: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                        ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:14:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:15:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:13: warning: unused variable ‘IndFimLst’ [-Wunused-variable]
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+../main.c:13:13: warning: unused variable ‘IndIniLst’ [-Wunused-variable]
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:14:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:15:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:13: warning: unused variable ‘IndFimLst’ [-Wunused-variable]
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+../main.c:13:13: warning: unused variable ‘IndIniLst’ [-Wunused-variable]
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereInicioLst’:
+../lista01.c:29:18: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+      novoElemento->Info = valor;
+                  ^~
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+                  ->
+../lista01.c:30:17: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                 ^~
+                 ->
+../lista01.c:30:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:31:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:32:17: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      if(argLista->IndFimLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+                 ->
+../lista01.c:33:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+               ^~
+               ->
+../lista01.c:33:37: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+                                     ^~
+                                     ->
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:42:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Info = valor;
+                ^~
+                ->
+../lista01.c:43:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Link = NULL;
+                ^~
+                ->
+../lista01.c:44:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    if(argLista->IndIniLst == NULL){
+               ^~
+               ->
+../lista01.c:45:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:49:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst->Link = novoElemento;
+               ^~
+               ->
+../lista01.c:51:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = novoElemento;
+            ^~
+            ->
+../lista01.c: In function ‘removeIndIniLst’:
+../lista01.c:55:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:58:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndIniLst->Info;
+                       ^~
+                       ->
+../lista01.c:59:36: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * removido = argLista->IndIniLst;
+                                    ^~
+                                    ->
+../lista01.c:60:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+             ^~
+             ->
+../lista01.c:60:35: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+                                   ^~
+                                   ->
+../lista01.c:62:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:63:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:69:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:76:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:79:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndFimLst->Info;
+                       ^~
+                       ->
+../lista01.c:80:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * ultimo = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:82:17: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+     while(ultimo->Link != NULL){
+                 ^~
+                 ->
+../lista01.c:84:25: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+          ultimo = ultimo->Link;
+                         ^~
+                         ->
+../lista01.c:87:17: error: ‘*penultimo’ is a pointer; did you mean to use ‘->’?
+        penultimo->Link = NULL;
+                 ^~
+                 ->
+../lista01.c:88:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+        argLista->IndFimLst = penultimo;
+                ^~
+                ->
+../lista01.c:91:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndIniLst = NULL;
+              ^~
+              ->
+../lista01.c:92:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘inserir’:
+../lista01.c:103:38: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          FormatoNo * atual = argLista->IndIniLst;
+                                      ^~
+                                      ->
+../lista01.c:106:29: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+                atual = atual->Link;
+                             ^~
+                             ->
+../lista01.c:108:47: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          if(atual == NULL || atual == argLista->IndFimLst){
+                                               ^~
+                                               ->
+../lista01.c:112:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Info = valor;
+                   ^~
+                   ->
+../lista01.c:113:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                   ^~
+                   ->
+../lista01.c:113:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                                 ^~
+                                 ->
+../lista01.c:114:20: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               atual->Link = novo;
+                    ^~
+                    ->
+../lista01.c: In function ‘remover’:
+../lista01.c:127:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+  FormatoNo * removido = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:132:22: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   removido = removido->Link;
+                      ^~
+                      ->
+../lista01.c:135:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndIniLst){
+                          ^~
+                          ->
+../lista01.c:136:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+            ^~
+            ->
+../lista01.c:136:34: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+                                  ^~
+                                  ->
+../lista01.c:138:16: error: ‘*ant_removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                ^~
+                ->
+../lista01.c:138:33: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                                 ^~
+                                 ->
+../lista01.c:140:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndFimLst){
+                          ^~
+                          ->
+../lista01.c:141:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = ant_removido;
+            ^~
+            ->
+../lista01.c:143:21: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   int tmp = removido->Info;
+                     ^~
+                     ->
+../lista01.c: In function ‘busca’:
+../lista01.c:152:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:154:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:156:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c:160:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndIniLst){
+                                ^~
+                                ->
+../lista01.c:161:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         return atual->Info;
+                     ^~
+                     ->
+../lista01.c:162:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndFimLst){
+                                ^~
+                                ->
+../lista01.c:163:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = anterior;
+              ^~
+              ->
+../lista01.c:165:13: error: ‘*anterior’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+             ^~
+             ->
+../lista01.c:165:27: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+                           ^~
+                           ->
+../lista01.c:166:10: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+          ^~
+          ->
+../lista01.c:166:27: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+                           ^~
+                           ->
+../lista01.c:167:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = atual;
+             ^~
+             ->
+../lista01.c:168:17: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     return atual->Info;
+                 ^~
+                 ->
+../lista01.c: In function ‘busca1’:
+../lista01.c:172:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:174:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:176:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c: In function ‘imprimeLista’:
+../lista01.c:190:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    FormatoNo * atual = argLista->IndIniLst;
+                                ^~
+                                ->
+../lista01.c:193:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+    printf(" %d",atual->Info);
+                      ^~
+                      ->
+../lista01.c:194:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         atual = atual->Link;
+                      ^~
+                      ->
+../lista01.c: In function ‘busca’:
+../lista01.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereInicioLst’:
+../lista01.c:29:18: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      novoElemento->Info = valor;
+                  ^~
+                  ->
+../lista01.c:30:17: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                 ^~
+                 ->
+../lista01.c:30:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:31:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:32:17: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      if(argLista->IndFimLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+                 ->
+../lista01.c:33:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+               ^~
+               ->
+../lista01.c:33:37: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+                                     ^~
+                                     ->
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:42:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Info = valor;
+                ^~
+                ->
+../lista01.c:43:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Link = NULL;
+                ^~
+                ->
+../lista01.c:44:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    if(argLista->IndIniLst == NULL){
+               ^~
+               ->
+../lista01.c:45:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:49:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst->Link = novoElemento;
+               ^~
+               ->
+../lista01.c:51:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = novoElemento;
+            ^~
+            ->
+../lista01.c: In function ‘removeIndIniLst’:
+../lista01.c:55:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:58:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndIniLst->Info;
+                       ^~
+                       ->
+../lista01.c:59:36: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * removido = argLista->IndIniLst;
+                                    ^~
+                                    ->
+../lista01.c:60:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+             ^~
+             ->
+../lista01.c:60:35: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+                                   ^~
+                                   ->
+../lista01.c:62:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:63:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:69:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:76:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:79:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndFimLst->Info;
+                       ^~
+                       ->
+../lista01.c:80:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * ultimo = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:82:17: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+     while(ultimo->Link != NULL){
+                 ^~
+                 ->
+../lista01.c:84:25: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+          ultimo = ultimo->Link;
+                         ^~
+                         ->
+../lista01.c:87:17: error: ‘*penultimo’ is a pointer; did you mean to use ‘->’?
+        penultimo->Link = NULL;
+                 ^~
+                 ->
+../lista01.c:88:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+        argLista->IndFimLst = penultimo;
+                ^~
+                ->
+../lista01.c:91:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndIniLst = NULL;
+              ^~
+              ->
+../lista01.c:92:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘inserir’:
+../lista01.c:103:38: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          FormatoNo * atual = argLista->IndIniLst;
+                                      ^~
+                                      ->
+../lista01.c:106:29: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+                atual = atual->Link;
+                             ^~
+                             ->
+../lista01.c:108:47: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          if(atual == NULL || atual == argLista->IndFimLst){
+                                               ^~
+                                               ->
+../lista01.c:112:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Info = valor;
+                   ^~
+                   ->
+../lista01.c:113:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                   ^~
+                   ->
+../lista01.c:113:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                                 ^~
+                                 ->
+../lista01.c:114:20: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               atual->Link = novo;
+                    ^~
+                    ->
+../lista01.c: In function ‘remover’:
+../lista01.c:127:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+  FormatoNo * removido = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:132:22: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   removido = removido->Link;
+                      ^~
+                      ->
+../lista01.c:135:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndIniLst){
+                          ^~
+                          ->
+../lista01.c:136:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+            ^~
+            ->
+../lista01.c:136:34: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+                                  ^~
+                                  ->
+../lista01.c:138:16: error: ‘*ant_removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                ^~
+                ->
+../lista01.c:138:33: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                                 ^~
+                                 ->
+../lista01.c:140:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndFimLst){
+                          ^~
+                          ->
+../lista01.c:141:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = ant_removido;
+            ^~
+            ->
+../lista01.c:143:21: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   int tmp = removido->Info;
+                     ^~
+                     ->
+../lista01.c: In function ‘busca’:
+../lista01.c:152:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:154:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:156:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c:160:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndIniLst){
+                                ^~
+                                ->
+../lista01.c:161:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         return atual->Info;
+                     ^~
+                     ->
+../lista01.c:162:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndFimLst){
+                                ^~
+                                ->
+../lista01.c:163:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = anterior;
+              ^~
+              ->
+../lista01.c:165:13: error: ‘*anterior’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+             ^~
+             ->
+../lista01.c:165:27: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+                           ^~
+                           ->
+../lista01.c:166:10: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+          ^~
+          ->
+../lista01.c:166:27: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+                           ^~
+                           ->
+../lista01.c:167:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = atual;
+             ^~
+             ->
+../lista01.c:168:17: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     return atual->Info;
+                 ^~
+                 ->
+../lista01.c: In function ‘busca1’:
+../lista01.c:172:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:174:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:176:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c: In function ‘imprimeLista’:
+../lista01.c:190:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    FormatoNo * atual = argLista->IndIniLst;
+                                ^~
+                                ->
+../lista01.c:193:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+    printf(" %d",atual->Info);
+                      ^~
+                      ->
+../lista01.c:194:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         atual = atual->Link;
+                      ^~
+                      ->
+../lista01.c: In function ‘busca’:
+../lista01.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereInicioLst’:
+../lista01.c:29:18: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+      novoElemento->Info = valor;
+                  ^~
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+                  ->
+../lista01.c:30:17: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                 ^~
+                 ->
+../lista01.c:30:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:31:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:32:17: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      if(argLista->IndFimLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+                 ->
+../lista01.c:33:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+               ^~
+               ->
+../lista01.c:33:37: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+                                     ^~
+                                     ->
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:42:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Info = valor;
+                ^~
+                ->
+../lista01.c:43:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Link = NULL;
+                ^~
+                ->
+../lista01.c:44:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    if(argLista->IndIniLst == NULL){
+               ^~
+               ->
+../lista01.c:45:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:49:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst->Link = novoElemento;
+               ^~
+               ->
+../lista01.c:51:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = novoElemento;
+            ^~
+            ->
+../lista01.c: In function ‘removeIndIniLst’:
+../lista01.c:55:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:58:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndIniLst->Info;
+                       ^~
+                       ->
+../lista01.c:59:36: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * removido = argLista->IndIniLst;
+                                    ^~
+                                    ->
+../lista01.c:60:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+             ^~
+             ->
+../lista01.c:60:35: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+                                   ^~
+                                   ->
+../lista01.c:62:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:63:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:69:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:76:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:79:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndFimLst->Info;
+                       ^~
+                       ->
+../lista01.c:80:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * ultimo = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:82:17: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+     while(ultimo->Link != NULL){
+                 ^~
+                 ->
+../lista01.c:84:25: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+          ultimo = ultimo->Link;
+                         ^~
+                         ->
+../lista01.c:87:17: error: ‘*penultimo’ is a pointer; did you mean to use ‘->’?
+        penultimo->Link = NULL;
+                 ^~
+                 ->
+../lista01.c:88:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+        argLista->IndFimLst = penultimo;
+                ^~
+                ->
+../lista01.c:91:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndIniLst = NULL;
+              ^~
+              ->
+../lista01.c:92:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘inserir’:
+../lista01.c:103:38: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          FormatoNo * atual = argLista->IndIniLst;
+                                      ^~
+                                      ->
+../lista01.c:106:29: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+                atual = atual->Link;
+                             ^~
+                             ->
+../lista01.c:108:47: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          if(atual == NULL || atual == argLista->IndFimLst){
+                                               ^~
+                                               ->
+../lista01.c:112:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Info = valor;
+                   ^~
+                   ->
+../lista01.c:113:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                   ^~
+                   ->
+../lista01.c:113:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                                 ^~
+                                 ->
+../lista01.c:114:20: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               atual->Link = novo;
+                    ^~
+                    ->
+../lista01.c: In function ‘remover’:
+../lista01.c:127:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+  FormatoNo * removido = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:132:22: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   removido = removido->Link;
+                      ^~
+                      ->
+../lista01.c:135:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndIniLst){
+                          ^~
+                          ->
+../lista01.c:136:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+            ^~
+            ->
+../lista01.c:136:34: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+                                  ^~
+                                  ->
+../lista01.c:138:16: error: ‘*ant_removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                ^~
+                ->
+../lista01.c:138:33: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                                 ^~
+                                 ->
+../lista01.c:140:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndFimLst){
+                          ^~
+                          ->
+../lista01.c:141:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = ant_removido;
+            ^~
+            ->
+../lista01.c:143:21: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   int tmp = removido->Info;
+                     ^~
+                     ->
+../lista01.c: In function ‘busca’:
+../lista01.c:152:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:154:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:156:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c:160:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndIniLst){
+                                ^~
+                                ->
+../lista01.c:161:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         return atual->Info;
+                     ^~
+                     ->
+../lista01.c:162:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndFimLst){
+                                ^~
+                                ->
+../lista01.c:163:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = anterior;
+              ^~
+              ->
+../lista01.c:165:13: error: ‘*anterior’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+             ^~
+             ->
+../lista01.c:165:27: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+                           ^~
+                           ->
+../lista01.c:166:10: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+          ^~
+          ->
+../lista01.c:166:27: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+                           ^~
+                           ->
+../lista01.c:167:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = atual;
+             ^~
+             ->
+../lista01.c:168:17: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     return atual->Info;
+                 ^~
+                 ->
+../lista01.c: In function ‘busca1’:
+../lista01.c:172:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:174:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:176:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c: In function ‘imprimeLista’:
+../lista01.c:190:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    FormatoNo * atual = argLista->IndIniLst;
+                                ^~
+                                ->
+../lista01.c:193:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+    printf(" %d",atual->Info);
+                      ^~
+                      ->
+../lista01.c:194:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         atual = atual->Link;
+                      ^~
+                      ->
+../lista01.c: In function ‘busca’:
+../lista01.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereInicioLst’:
+../lista01.c:29:18: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+      novoElemento->Info = valor;
+                  ^~
+                  ->
+../lista01.c:30:17: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                 ^~
+                 ->
+../lista01.c:30:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+     novoElemento->Link = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:31:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:32:17: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      if(argLista->IndFimLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+                 ->
+../lista01.c:33:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+               ^~
+               ->
+../lista01.c:33:37: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+                                     ^~
+                                     ->
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:42:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Info = valor;
+                ^~
+                ->
+../lista01.c:43:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Link = NULL;
+                ^~
+                ->
+../lista01.c:44:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    if(argLista->IndIniLst == NULL){
+               ^~
+               ->
+../lista01.c:45:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:49:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst->Link = novoElemento;
+               ^~
+               ->
+../lista01.c:51:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = novoElemento;
+            ^~
+            ->
+../lista01.c: In function ‘removeIndIniLst’:
+../lista01.c:55:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:58:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndIniLst->Info;
+                       ^~
+                       ->
+../lista01.c:59:36: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * removido = argLista->IndIniLst;
+                                    ^~
+                                    ->
+../lista01.c:60:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+             ^~
+             ->
+../lista01.c:60:35: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+                                   ^~
+                                   ->
+../lista01.c:62:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:63:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:69:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:76:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:79:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndFimLst->Info;
+                       ^~
+                       ->
+../lista01.c:80:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * ultimo = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:82:17: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+     while(ultimo->Link != NULL){
+                 ^~
+                 ->
+../lista01.c:84:25: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+          ultimo = ultimo->Link;
+                         ^~
+                         ->
+../lista01.c:87:17: error: ‘*penultimo’ is a pointer; did you mean to use ‘->’?
+        penultimo->Link = NULL;
+                 ^~
+                 ->
+../lista01.c:88:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+        argLista->IndFimLst = penultimo;
+                ^~
+                ->
+../lista01.c:91:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndIniLst = NULL;
+              ^~
+              ->
+../lista01.c:92:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘inserir’:
+../lista01.c:103:38: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          FormatoNo * atual = argLista->IndIniLst;
+                                      ^~
+                                      ->
+../lista01.c:106:29: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+                atual = atual->Link;
+                             ^~
+                             ->
+../lista01.c:108:47: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          if(atual == NULL || atual == argLista->IndFimLst){
+                                               ^~
+                                               ->
+../lista01.c:112:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Info = valor;
+                   ^~
+                   ->
+../lista01.c:113:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                   ^~
+                   ->
+../lista01.c:113:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                                 ^~
+                                 ->
+../lista01.c:114:20: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               atual->Link = novo;
+                    ^~
+                    ->
+../lista01.c: In function ‘remover’:
+../lista01.c:127:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+  FormatoNo * removido = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:132:22: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   removido = removido->Link;
+                      ^~
+                      ->
+../lista01.c:135:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndIniLst){
+                          ^~
+                          ->
+../lista01.c:136:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+            ^~
+            ->
+../lista01.c:136:34: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+                                  ^~
+                                  ->
+../lista01.c:138:16: error: ‘*ant_removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                ^~
+                ->
+../lista01.c:138:33: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                                 ^~
+                                 ->
+../lista01.c:140:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndFimLst){
+                          ^~
+                          ->
+../lista01.c:141:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = ant_removido;
+            ^~
+            ->
+../lista01.c:143:21: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   int tmp = removido->Info;
+                     ^~
+                     ->
+../lista01.c: In function ‘busca’:
+../lista01.c:152:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:154:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:156:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c:160:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndIniLst){
+                                ^~
+                                ->
+../lista01.c:161:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         return atual->Info;
+                     ^~
+                     ->
+../lista01.c:162:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndFimLst){
+                                ^~
+                                ->
+../lista01.c:163:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = anterior;
+              ^~
+              ->
+../lista01.c:165:13: error: ‘*anterior’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+             ^~
+             ->
+../lista01.c:165:27: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+                           ^~
+                           ->
+../lista01.c:166:10: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+          ^~
+          ->
+../lista01.c:166:27: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+                           ^~
+                           ->
+../lista01.c:167:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = atual;
+             ^~
+             ->
+../lista01.c:168:17: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     return atual->Info;
+                 ^~
+                 ->
+../lista01.c: In function ‘busca1’:
+../lista01.c:172:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:174:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:176:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c: In function ‘imprimeLista’:
+../lista01.c:190:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    FormatoNo * atual = argLista->IndIniLst;
+                                ^~
+                                ->
+../lista01.c:193:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+    printf(" %d",atual->Info);
+                      ^~
+                      ->
+../lista01.c:194:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         atual = atual->Link;
+                      ^~
+                      ->
+../lista01.c: In function ‘busca’:
+../lista01.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereInicioLst’:
+../lista01.c:29:18: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+      novoElemento->Info = valor;
+                  ^~
+                  ->
+../lista01.c:30:17: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+                 ^~
+                 ->
+../lista01.c:30:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     novoElemento->Link = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:31:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:32:17: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      if(argLista->IndFimLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+                 ->
+../lista01.c:33:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+               ^~
+               ->
+../lista01.c:33:37: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst = argLista->IndIniLst;
+                                     ^~
+                                     ->
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:42:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Info = valor;
+                ^~
+                ->
+../lista01.c:43:16: error: ‘*novoElemento’ is a pointer; did you mean to use ‘->’?
+    novoElemento->Link = NULL;
+                ^~
+                ->
+../lista01.c:44:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    if(argLista->IndIniLst == NULL){
+               ^~
+               ->
+../lista01.c:45:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = novoElemento;
+             ^~
+             ->
+../lista01.c:49:15: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+       argLista->IndFimLst->Link = novoElemento;
+               ^~
+               ->
+../lista01.c:51:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = novoElemento;
+            ^~
+            ->
+../lista01.c: In function ‘removeIndIniLst’:
+../lista01.c:55:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:58:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndIniLst->Info;
+                       ^~
+                       ->
+../lista01.c:59:36: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * removido = argLista->IndIniLst;
+                                    ^~
+                                    ->
+../lista01.c:60:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+             ^~
+             ->
+../lista01.c:60:35: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = argLista->IndIniLst->Link;
+                                   ^~
+                                   ->
+../lista01.c:62:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:63:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘estaVazia’:
+../lista01.c:69:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:76:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     if(argLista->IndIniLst == NULL){
+                ^~
+                ->
+../lista01.c:79:23: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     int tmp = argLista->IndFimLst->Info;
+                       ^~
+                       ->
+../lista01.c:80:34: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * ultimo = argLista->IndIniLst;
+                                  ^~
+                                  ->
+../lista01.c:82:17: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+     while(ultimo->Link != NULL){
+                 ^~
+                 ->
+../lista01.c:84:25: error: ‘*ultimo’ is a pointer; did you mean to use ‘->’?
+          ultimo = ultimo->Link;
+                         ^~
+                         ->
+../lista01.c:87:17: error: ‘*penultimo’ is a pointer; did you mean to use ‘->’?
+        penultimo->Link = NULL;
+                 ^~
+                 ->
+../lista01.c:88:16: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+        argLista->IndFimLst = penultimo;
+                ^~
+                ->
+../lista01.c:91:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndIniLst = NULL;
+              ^~
+              ->
+../lista01.c:92:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = NULL;
+              ^~
+              ->
+../lista01.c: In function ‘inserir’:
+../lista01.c:103:38: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          FormatoNo * atual = argLista->IndIniLst;
+                                      ^~
+                                      ->
+../lista01.c:106:29: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+                atual = atual->Link;
+                             ^~
+                             ->
+../lista01.c:108:47: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+          if(atual == NULL || atual == argLista->IndFimLst){
+                                               ^~
+                                               ->
+../lista01.c:112:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Info = valor;
+                   ^~
+                   ->
+../lista01.c:113:19: error: ‘*novo’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                   ^~
+                   ->
+../lista01.c:113:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               novo->Link = atual->Link;
+                                 ^~
+                                 ->
+../lista01.c:114:20: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+               atual->Link = novo;
+                    ^~
+                    ->
+../lista01.c: In function ‘remover’:
+../lista01.c:127:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+  FormatoNo * removido = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:132:22: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   removido = removido->Link;
+                      ^~
+                      ->
+../lista01.c:135:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndIniLst){
+                          ^~
+                          ->
+../lista01.c:136:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+            ^~
+            ->
+../lista01.c:136:34: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    argLista->IndIniLst = removido->Link;
+                                  ^~
+                                  ->
+../lista01.c:138:16: error: ‘*ant_removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                ^~
+                ->
+../lista01.c:138:33: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+    ant_removido->Link = removido->Link;
+                                 ^~
+                                 ->
+../lista01.c:140:26: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+   if(removido == argLista->IndFimLst){
+                          ^~
+                          ->
+../lista01.c:141:12: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    argLista->IndFimLst = ant_removido;
+            ^~
+            ->
+../lista01.c:143:21: error: ‘*removido’ is a pointer; did you mean to use ‘->’?
+   int tmp = removido->Info;
+                     ^~
+                     ->
+../lista01.c: In function ‘busca’:
+../lista01.c:152:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:154:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:156:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c:160:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndIniLst){
+                                ^~
+                                ->
+../lista01.c:161:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         return atual->Info;
+                     ^~
+                     ->
+../lista01.c:162:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     }else if (atual == argLista->IndFimLst){
+                                ^~
+                                ->
+../lista01.c:163:14: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+      argLista->IndFimLst = anterior;
+              ^~
+              ->
+../lista01.c:165:13: error: ‘*anterior’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+             ^~
+             ->
+../lista01.c:165:27: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     anterior->Link = atual->Link;
+                           ^~
+                           ->
+../lista01.c:166:10: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+          ^~
+          ->
+../lista01.c:166:27: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     atual->Link = argLista->IndIniLst;
+                           ^~
+                           ->
+../lista01.c:167:13: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     argLista->IndIniLst = atual;
+             ^~
+             ->
+../lista01.c:168:17: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     return atual->Info;
+                 ^~
+                 ->
+../lista01.c: In function ‘busca1’:
+../lista01.c:172:33: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+     FormatoNo * atual = argLista->IndIniLst;
+                                 ^~
+                                 ->
+../lista01.c:174:33: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+     while(atual != NULL && atual->Info != valor){
+                                 ^~
+                                 ->
+../lista01.c:176:21: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+        atual = atual->Link;
+                     ^~
+                     ->
+../lista01.c: In function ‘imprimeLista’:
+../lista01.c:190:32: error: ‘*argLista’ is a pointer; did you mean to use ‘->’?
+    FormatoNo * atual = argLista->IndIniLst;
+                                ^~
+                                ->
+../lista01.c:193:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+    printf(" %d",atual->Info);
+                      ^~
+                      ->
+../lista01.c:194:22: error: ‘*atual’ is a pointer; did you mean to use ‘->’?
+         atual = atual->Link;
+                      ^~
+                      ->
+../lista01.c: In function ‘busca’:
+../lista01.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:15:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:14:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:15:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:13: warning: unused variable ‘IndFimLst’ [-Wunused-variable]
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+../main.c:13:13: warning: unused variable ‘IndIniLst’ [-Wunused-variable]
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:13:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:14:52: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoNo {aka struct elemento}’
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+                                                    ^~~~~~~~~
+../main.c:15:53: error: invalid application of ‘sizeof’ to incomplete type ‘FormatoLst {aka struct lista}’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+                                                     ^~~~~~~~~~
+../main.c:14:13: warning: unused variable ‘IndFimLst’ [-Wunused-variable]
+ FormatoNo * IndFimLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+../main.c:13:13: warning: unused variable ‘IndIniLst’ [-Wunused-variable]
+ FormatoNo * IndIniLst = (FormatoNo *)malloc(sizeof(FormatoNo));
+             ^~~~~~~~~
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c:12:8: error: redefinition of ‘struct elemento’
+ struct elemento
+        ^~~~~~~~
+In file included from ../lista01.c:9:0:
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+../lista01.h:2:16: note: originally defined here
+ typedef struct elemento{int Info; struct elemento * Link;} FormatoNo;
+                ^~~~~~~~
+../lista01.c:22:8: error: redefinition of ‘struct lista’
+ struct lista{
+        ^~~~~
+In file included from ../lista01.c:9:0:
+../lista01.h:6:16: note: originally defined here
+ typedef struct lista{FormatoNo * IndIniLst; FormatoNo * IndFimLst; }FormatoLst;
+                ^~~~~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c:12:8: error: redefinition of ‘struct elemento’
+ struct elemento
+        ^~~~~~~~
+In file included from ../lista01.c:9:0:
+../lista01.h:2:16: note: originally defined here
+ typedef struct elemento{int Info; struct elemento * Link;} FormatoNo;
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+                ^~~~~~~~
+../lista01.c:22:8: error: redefinition of ‘struct lista’
+ struct lista{
+        ^~~~~
+In file included from ../lista01.c:9:0:
+../lista01.h:6:16: note: originally defined here
+ typedef struct lista{FormatoNo * IndIniLst; FormatoNo * IndFimLst; }FormatoLst;
+                ^~~~~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha00.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha00.d" -MT"pilha00.d" -o "pilha00.o" "../pilha00.c"
+Finished building: ../pilha00.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha00.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+./pilha0.o: En la función `inserir':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:106: referencia a `insereIndIniLst' sin definir
+makefile:29: fallo en las instrucciones para el objetivo 'Pilha00'
+./pilha0.o: En la función `empilhar':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:157: referencia a `insereIndIniLst' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [Pilha00] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+./pilha0.o: En la función `inserir':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:106: referencia a `insereIndIniLst' sin definir
+./pilha0.o: En la función `empilhar':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:157: referencia a `insereIndIniLst' sin definir
+collect2: error: ld returned 1 exit status
+makefile:29: fallo en las instrucciones para el objetivo 'Pilha00'
+make: *** [Pilha00] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+./pilha0.o: En la función `inserir':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:106: referencia a `insereIndIniLst' sin definir
+makefile:29: fallo en las instrucciones para el objetivo 'Pilha00'
+./pilha0.o: En la función `empilhar':
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:157: referencia a `insereIndIniLst' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [Pilha00] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+./pilha0.o: En la función `desempilhar':
+makefile:29: fallo en las instrucciones para el objetivo 'Pilha00'
+/home/cristhian/Dropbox/workspaceED/Pilha00/Debug/../pilha0.c:155: referencia a `removeIndIniLst' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [Pilha00] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:9:19: fatal error: pilha.h: No existe el fichero o el directorio
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+ #include "pilha.h"
+                   ^
+compilation terminated.
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:9:19: fatal error: pilha.h: No existe el fichero o el directorio
+ #include "pilha.h"
+                   ^
+compilation terminated.
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+make: *** [main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:9:19: fatal error: pilha.h: No existe el fichero o el directorio
+ #include "pilha.h"
+                   ^
+compilation terminated.
+make: *** [main.o] Error 1
+subdir.mk:21: fallo en las instrucciones para el objetivo 'main.o'
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:19:25: warning: implicit declaration of function ‘topo’ [-Wimplicit-function-declaration]
+  printf("Topo: %.2f\n", topo(p));
+                         ^~~~
+../main.c:19:19: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Topo: %.2f\n", topo(p));
+                   ^
+../main.c:21:19: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Topo: %.2f\n", topo(p));
+                   ^
+../main.c:23:19: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Topo: %.2f\n", topo(p));
+                   ^
+../main.c:25:19: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Topo: %.2f\n", topo(p));
+                   ^
+Finished building: ../main.c
+ 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+../pilha01.c:21:2: error: unknown type name ‘Lista’
+  Lista* prim;
+  ^~~~~
+../pilha01.c: In function ‘push’:
+../pilha01.c:33:2: error: unknown type name ‘Lista’
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+  ^~~~~
+../pilha01.c:33:14: error: ‘Lista’ undeclared (first use in this function)
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+              ^~~~~
+../pilha01.c:33:14: note: each undeclared identifier is reported only once for each function it appears in
+../pilha01.c:33:20: error: expected expression before ‘)’ token
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+                    ^
+../pilha01.c:34:3: error: request for member ‘info’ in something not a structure or union
+  n->info = v;
+   ^~
+../pilha01.c:35:3: error: request for member ‘prox’ in something not a structure or union
+  n->prox = p->prim;
+   ^~
+../pilha01.c: In function ‘pop’:
+../pilha01.c:41:2: error: unknown type name ‘Lista’
+  Lista* t;
+  ^~~~~
+../pilha01.c:49:7: error: request for member ‘info’ in something not a structure or union
+  v = t->info;
+       ^~
+../pilha01.c:50:13: error: request for member ‘prox’ in something not a structure or union
+  p->prim = t->prox;
+             ^~
+../pilha01.c: In function ‘liberar’:
+../pilha01.c:62:2: error: unknown type name ‘Lista’
+  Lista* q = p->prim;
+  ^~~~~
+../pilha01.c:65:3: error: unknown type name ‘Lista’
+   Lista* t = q->prox;
+   ^~~~~
+../pilha01.c:65:15: error: request for member ‘prox’ in something not a structure or union
+   Lista* t = q->prox;
+               ^~
+../pilha01.c: In function ‘topo’:
+../pilha01.c:79:16: error: request for member ‘info’ in something not a structure or union
+  return p->prim->info;
+                ^~
+../pilha01.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [pilha01.o] Error 1
+subdir.mk:21: fallo en las instrucciones para el objetivo 'pilha01.o'
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+../pilha01.c:21:2: error: unknown type name ‘Lista’
+  Lista* prim;
+  ^~~~~
+../pilha01.c: In function ‘push’:
+../pilha01.c:33:2: error: unknown type name ‘Lista’
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+  ^~~~~
+../pilha01.c:33:14: error: ‘Lista’ undeclared (first use in this function)
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+              ^~~~~
+../pilha01.c:33:14: note: each undeclared identifier is reported only once for each function it appears in
+../pilha01.c:33:20: error: expected expression before ‘)’ token
+subdir.mk:21: fallo en las instrucciones para el objetivo 'pilha01.o'
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+                    ^
+../pilha01.c:34:3: error: request for member ‘info’ in something not a structure or union
+  n->info = v;
+   ^~
+../pilha01.c:35:3: error: request for member ‘prox’ in something not a structure or union
+  n->prox = p->prim;
+   ^~
+../pilha01.c: In function ‘pop’:
+../pilha01.c:41:2: error: unknown type name ‘Lista’
+  Lista* t;
+  ^~~~~
+../pilha01.c:49:7: error: request for member ‘info’ in something not a structure or union
+  v = t->info;
+       ^~
+../pilha01.c:50:13: error: request for member ‘prox’ in something not a structure or union
+  p->prim = t->prox;
+             ^~
+../pilha01.c: In function ‘liberar’:
+../pilha01.c:62:2: error: unknown type name ‘Lista’
+  Lista* q = p->prim;
+  ^~~~~
+../pilha01.c:65:3: error: unknown type name ‘Lista’
+   Lista* t = q->prox;
+   ^~~~~
+../pilha01.c:65:15: error: request for member ‘prox’ in something not a structure or union
+   Lista* t = q->prox;
+               ^~
+../pilha01.c: In function ‘topo’:
+../pilha01.c:79:16: error: request for member ‘info’ in something not a structure or union
+  return p->prim->info;
+                ^~
+../pilha01.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [pilha01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+../pilha01.c:21:2: error: unknown type name ‘Lista’
+  Lista* prim;
+  ^~~~~
+../pilha01.c: In function ‘push’:
+../pilha01.c:33:2: error: unknown type name ‘Lista’
+subdir.mk:21: fallo en las instrucciones para el objetivo 'pilha01.o'
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+  ^~~~~
+../pilha01.c:33:14: error: ‘Lista’ undeclared (first use in this function)
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+              ^~~~~
+../pilha01.c:33:14: note: each undeclared identifier is reported only once for each function it appears in
+../pilha01.c:33:20: error: expected expression before ‘)’ token
+  Lista* n = (Lista*)malloc(sizeof(Lista));
+                    ^
+../pilha01.c:34:3: error: request for member ‘info’ in something not a structure or union
+  n->info = v;
+   ^~
+../pilha01.c:35:3: error: request for member ‘prox’ in something not a structure or union
+  n->prox = p->prim;
+   ^~
+../pilha01.c: In function ‘pop’:
+../pilha01.c:41:2: error: unknown type name ‘Lista’
+  Lista* t;
+  ^~~~~
+../pilha01.c:49:7: error: request for member ‘info’ in something not a structure or union
+  v = t->info;
+       ^~
+../pilha01.c:50:13: error: request for member ‘prox’ in something not a structure or union
+  p->prim = t->prox;
+             ^~
+../pilha01.c: In function ‘liberar’:
+../pilha01.c:62:2: error: unknown type name ‘Lista’
+  Lista* q = p->prim;
+  ^~~~~
+../pilha01.c:65:3: error: unknown type name ‘Lista’
+   Lista* t = q->prox;
+   ^~~~~
+../pilha01.c:65:15: error: request for member ‘prox’ in something not a structure or union
+   Lista* t = q->prox;
+               ^~
+../pilha01.c: In function ‘topo’:
+../pilha01.c:79:16: error: request for member ‘info’ in something not a structure or union
+  return p->prim->info;
+                ^~
+../pilha01.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [pilha01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****

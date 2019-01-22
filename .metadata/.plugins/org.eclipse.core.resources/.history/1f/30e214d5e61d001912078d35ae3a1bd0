@@ -1,0 +1,101 @@
+/*
+ * Seudo.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+1. VERIFICAMOS SI EXISTE ESPACIO
+2. Incrementamos el topo de la fila
+3. aramazenar as informacoes nessa nova area
+
+<01> ALGORITMO Empilha
+<02>
+<03> Pilha				{Lista alocada sequencialmente em memoria}
+<04> PtrTop				{Indica a extremidade da pilha}
+<05> IndFimPhila		{Endereco maximo para alocacao da pilha }
+<06>
+<07> INICIO
+<08>	SE PtrTop = IndFimPilha
+<09>	ENTAO
+<10>		Overflow
+<11>	SENAO
+<12>		INICIO
+<13>			PtrTopo <- PtrTopo+1
+<14>			Pilha (PtrTopo)<-Informacao
+<15>		FIM
+<16> FIM
+<17>
+
+1. vERIFICAMOS QUE NO ESTE VAZIA
+2. Rescatamos  a informcaco na area
+3. Decrecemos el topo de la fila
+
+
+
+<01> ALGORITMO Desempilha
+<02>
+<03> Pilha				{Lista alocada sequencialmente em memoria}
+<04> PtrTop				{Indica a extremidade da pilha}
+<05> IndFimPhila		{Endereco maximo para alocacao da pilha }
+<06>
+<07> INICIO
+<08>	SE PtrTopo = 0
+<09>	ENTAO
+<10>		Underflow
+<11>	SENAO
+<12>		INÍCIO
+<13>			Informacao <- Pilha(PtrTopo)
+<14>			PtrTopo <-PtrTopo-1
+<15>		FIM
+<16> FIM
+
+
+FILA
+
+1. VERIFICAMOS SI EXISTE ESPACIO
+2. Incrementamos el topo de la fila
+3. aramazenar as informacoes nessa nova area
+
+<01> ALGORITMO Emfileira
+<02>
+<03> Fila 			{Lista alcada de forma secuancial}
+<04> PtrFrente 		{Indica a frente da fila}
+<05> PtrTras		{Indica o final da fila}
+<06> IndFimFila		{Endereco maximo para alocacao da Fila}
+<07>
+<08> INICIO
+<09>	SE PtrTras = IndFimFila
+<10>	ENTAO
+<11>		Overflow
+<12>	SENAO
+<13>		INICIO
+<14>			PrTras <-PtrTras +1
+<15>			Fila (PtrTras)<- Informacao
+<16> 		FIM
+<17> FIM
+
+
+
+<01> ALGORITMO Desemfileira
+<02>
+<03> Fila 			{Lista alcada de forma secuancial}
+<04> PtrFrente 		{Indica a frente da fila}
+<05> PtrTras		{Indica o final da fila}
+<06> IndFimFila		{Endereco maximo para alocacao da Fila}
+<07>
+<08> INICIO
+<09>	SE PtrFrente > PtrTrás
+<10>	ENTAO
+<11>		Underflow
+<12>	SENAO
+<13>		INICIO
+<14>			Informacao <- Fila(PtrFrente)
+<15>			PtrFrente <- PtrFrente +1
+<16> 		FIM
+<17> FIM
+
+
+
+
+

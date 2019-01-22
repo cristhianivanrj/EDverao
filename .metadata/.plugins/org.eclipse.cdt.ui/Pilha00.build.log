@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****

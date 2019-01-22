@@ -67,3 +67,1800 @@ Undefined maintenance set command: "python print-stack off".  Try "help maintena
 java.lang.Exception: Undefined maintenance set command: "python print-stack off".  Try "help maintenance set".
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:889)
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:720)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 13:30:06.662
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/listas01/lista01.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 13:30:06.662
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/listas01/lista01.c": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/listas01/lista01.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:57:55.068
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 13:57:55.068
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:57:55.068
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:57:55.069
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.069
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.069
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.069
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.069
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.070
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.070
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.070
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.070
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.070
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.070
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:57:55.360
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 13:57:55.360
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:57:55.360
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:57:55.360
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.360
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.360
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.360
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.361
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.361
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.371
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.371
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.371
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.372
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.372
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.372
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:57:55.372
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.372
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:57:55.372
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:58:25.785
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 13:58:25.785
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:58:25.785
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:58:25.785
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.785
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.785
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.785
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.785
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.785
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.785
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.788
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.788
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.788
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.788
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:58:25.789
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 13:58:25.789
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:58:25.789
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 13:58:25.789
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.789
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.789
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.789
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.789
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:58:25.789
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:58:25.789
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:59:52.317
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.317
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.317
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.317
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.317
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.317
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.317
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.318
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.318
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.318
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.318
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 13:59:52.320
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.320
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.320
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.320
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.320
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 13:59:52.320
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 13:59:52.320
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:35.627
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:01:35.627
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:35.627
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:35.627
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.627
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.627
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.627
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.627
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.627
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.628
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.628
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.628
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.628
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:35.667
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:01:35.667
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:35.667
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:35.667
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.667
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.667
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.667
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.667
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:35.667
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:35.667
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:43.824
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:01:43.825
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:43.825
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.825
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.825
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.825
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.825
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.825
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.825
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:43.830
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:01:43.830
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:01:43.830
+!MESSAGE "C/C++ Development Tools SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.830
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.830
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.830
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.830
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:43.830
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:43.830
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:50.213
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.213
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.214
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.214
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.214
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.214
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.214
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:50.215
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.216
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.216
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.216
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.216
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:50.216
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:50.216
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:56.488
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.488
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.488
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.488
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.488
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.488
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.488
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:01:56.489
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.489
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.491
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.492
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.492
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.492
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:01:56.492
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:01:56.492
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:06.107
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.108
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.108
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:06.109
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.109
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.109
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.109
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.109
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:06.109
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:06.109
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:11.499
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.499
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.499
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.499
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.499
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.499
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.499
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:11.500
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.500
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.500
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.500
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.500
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:11.500
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:11.500
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:22.686
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.686
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.686
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.686
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.686
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.686
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.686
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:22.687
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.687
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.687
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.687
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.687
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:22.687
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:22.687
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:40.629
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:02:40.629
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:02:40.629
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.629
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE Software being installed: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE Missing requirement: GCC support for CDT Build Core 1.0.1.201811241055 (org.eclipse.cdt.build.gcc.core 1.0.1.201811241055) requires 'bundle org.eclipse.core.resources 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.630
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE From: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [9.6.0.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.630
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE From: C/C++ GNU Toolchain Build Support 9.6.0.201811241055 (org.eclipse.cdt.gnu.build.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.630
+!MESSAGE To: org.eclipse.cdt.build.gcc.core [1.0.1.201811241055]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:40.631
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:02:40.631
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:02:40.631
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.631
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE Software being installed: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE Missing requirement: GCC support for CDT Build Core 1.0.1.201811241055 (org.eclipse.cdt.build.gcc.core 1.0.1.201811241055) requires 'bundle org.eclipse.core.resources 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.631
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE From: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [9.6.0.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:40.631
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE From: C/C++ GNU Toolchain Build Support 9.6.0.201811241055 (org.eclipse.cdt.gnu.build.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:40.631
+!MESSAGE To: org.eclipse.cdt.build.gcc.core [1.0.1.201811241055]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:52.753
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:02:52.753
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:02:52.753
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.753
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.753
+!MESSAGE Software being installed: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.753
+!MESSAGE Missing requirement: GCC support for CDT Build Core 1.0.1.201811241055 (org.eclipse.cdt.build.gcc.core 1.0.1.201811241055) requires 'bundle org.eclipse.core.resources 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.753
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.753
+!MESSAGE From: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.754
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [9.6.0.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.754
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.754
+!MESSAGE From: C/C++ GNU Toolchain Build Support 9.6.0.201811241055 (org.eclipse.cdt.gnu.build.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.754
+!MESSAGE To: org.eclipse.cdt.build.gcc.core [1.0.1.201811241055]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:02:52.804
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-01-21 14:02:52.804
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-01-21 14:02:52.804
+!MESSAGE "C/C++ Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.804
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE Software being installed: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE Missing requirement: GCC support for CDT Build Core 1.0.1.201811241055 (org.eclipse.cdt.build.gcc.core 1.0.1.201811241055) requires 'bundle org.eclipse.core.resources 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.804
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE From: C/C++ Development Tools 9.6.0.201812111211 (org.eclipse.cdt.feature.group 9.6.0.201812111211)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE To: org.eclipse.cdt.gnu.build.feature.group [9.6.0.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:02:52.804
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE From: C/C++ GNU Toolchain Build Support 9.6.0.201811241055 (org.eclipse.cdt.gnu.build.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:02:52.804
+!MESSAGE To: org.eclipse.cdt.build.gcc.core [1.0.1.201811241055]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:03:30.288
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.288
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.288
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:03:30.292
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.292
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE Software being installed: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE Missing requirement: C/C++ Development Tools Core 6.6.0.201812101042 (org.eclipse.cdt.core 6.6.0.201812101042) requires 'bundle org.eclipse.core.contenttype [3.7.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.292
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE From: CDT GCC Cross Compiler Support 1.1.1.201811241055 (org.eclipse.cdt.build.crossgcc 1.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE To: bundle org.eclipse.cdt.managedbuilder.ui 8.1.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.292
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE From: C/C++ GCC Cross Compiler Support 9.6.0.201811241055 (org.eclipse.cdt.build.crossgcc.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE To: org.eclipse.cdt.build.crossgcc [1.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.292
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE From: C/C++ Managed Builder UI 9.1.1.201811241055 (org.eclipse.cdt.managedbuilder.ui 9.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE To: bundle org.eclipse.cdt.ui [6.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:03:30.292
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE From: C/C++ Development Tools UI 6.4.0.201811241855 (org.eclipse.cdt.ui 6.4.0.201811241855)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:03:30.292
+!MESSAGE To: bundle org.eclipse.cdt.core [6.6.0,7.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:04:02.879
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.879
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.879
+!MESSAGE Software being installed: C/C++ GDB Hardware Debugging 9.6.0.201811241055 (org.eclipse.cdt.debug.gdbjtag.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.879
+!MESSAGE Software currently installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.880
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE GDB DSF Debugger Integration Core 5.6.0.201812061011 (org.eclipse.cdt.dsf.gdb 5.6.0.201812061011)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE GDB DSF Debugger Integration Core 4.0.0.201106081058 (org.eclipse.cdt.dsf.gdb 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE GDB DSF Debugger Integration Core 4.0.1.201109151620 (org.eclipse.cdt.dsf.gdb 4.0.1.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE GDB DSF Debugger Integration Core 4.0.2.201202111925 (org.eclipse.cdt.dsf.gdb 4.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.880
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE From: C/C++ GDB Hardware Debugging 9.6.0.201811241055 (org.eclipse.cdt.debug.gdbjtag.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE To: org.eclipse.cdt.debug.gdbjtag.ui [8.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.880
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE From: Eclipse GDB Hardware Debug UI Plug-in 8.1.1.201811241055 (org.eclipse.cdt.debug.gdbjtag.ui 8.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE To: bundle org.eclipse.cdt.dsf.gdb [5.5.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.880
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.group [4.0.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.880
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.880
+!MESSAGE To: org.eclipse.cdt.dsf.gdb [4.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:04:02.881
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.881
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.881
+!MESSAGE Software being installed: C/C++ GDB Hardware Debugging 9.6.0.201811241055 (org.eclipse.cdt.debug.gdbjtag.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.881
+!MESSAGE Software currently installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.881
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.881
+!MESSAGE GDB DSF Debugger Integration Core 5.6.0.201812061011 (org.eclipse.cdt.dsf.gdb 5.6.0.201812061011)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.881
+!MESSAGE GDB DSF Debugger Integration Core 4.0.0.201106081058 (org.eclipse.cdt.dsf.gdb 4.0.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE GDB DSF Debugger Integration Core 4.0.1.201109151620 (org.eclipse.cdt.dsf.gdb 4.0.1.201109151620)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE GDB DSF Debugger Integration Core 4.0.2.201202111925 (org.eclipse.cdt.dsf.gdb 4.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.882
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE From: C/C++ GDB Hardware Debugging 9.6.0.201811241055 (org.eclipse.cdt.debug.gdbjtag.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE To: org.eclipse.cdt.debug.gdbjtag.ui [8.1.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.882
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE From: Eclipse GDB Hardware Debug UI Plug-in 8.1.1.201811241055 (org.eclipse.cdt.debug.gdbjtag.ui 8.1.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE To: bundle org.eclipse.cdt.dsf.gdb [5.5.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.882
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE To: org.eclipse.cdt.gnu.dsf.feature.group [4.0.1.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:02.882
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE From: C/C++ DSF GDB Debugger Integration 4.0.1.201202111925 (org.eclipse.cdt.gnu.dsf.feature.group 4.0.1.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:02.882
+!MESSAGE To: org.eclipse.cdt.dsf.gdb [4.0.2.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:04:18.171
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE Software being installed: C/C++ Memory View Enhancements 9.6.0.201811241055 (org.eclipse.cdt.debug.ui.memory.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE Software currently installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201106081058 (org.eclipse.cdt.debug.core 7.1.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201202111925 (org.eclipse.cdt.debug.core 7.1.0.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE C/C++ Development Tools Debug Model 8.3.1.201811241055 (org.eclipse.cdt.debug.core 8.3.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201109151620 (org.eclipse.cdt.debug.core 7.1.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE From: C/C++ Memory View Enhancements 9.6.0.201811241055 (org.eclipse.cdt.debug.ui.memory.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE To: org.eclipse.cdt.debug.ui.memory.floatingpoint [1.0.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE From: Floating Point Memory Renderer 1.0.1.201811241055 (org.eclipse.cdt.debug.ui.memory.floatingpoint 1.0.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE To: bundle org.eclipse.cdt.debug.core 7.2.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE To: org.eclipse.cdt.platform.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.171
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE From: C/C++ Development Platform 8.0.2.201202111925 (org.eclipse.cdt.platform.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.171
+!MESSAGE To: org.eclipse.cdt.debug.core [7.1.0.201202111925]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-01-21 14:04:18.173
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE Software being installed: C/C++ Memory View Enhancements 9.6.0.201811241055 (org.eclipse.cdt.debug.ui.memory.feature.group 9.6.0.201811241055)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE Software currently installed: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201106081058 (org.eclipse.cdt.debug.core 7.1.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201202111925 (org.eclipse.cdt.debug.core 7.1.0.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE C/C++ Development Tools Debug Model 8.3.1.201811241055 (org.eclipse.cdt.debug.core 8.3.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE C/C++ Development Tools Debug Model 7.1.0.201109151620 (org.eclipse.cdt.debug.core 7.1.0.201109151620)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE From: C/C++ Memory View Enhancements 9.6.0.201811241055 (org.eclipse.cdt.debug.ui.memory.feature.group 9.6.0.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE To: org.eclipse.cdt.debug.ui.memory.floatingpoint [1.0.1.201811241055]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE From: Floating Point Memory Renderer 1.0.1.201811241055 (org.eclipse.cdt.debug.ui.memory.floatingpoint 1.0.1.201811241055)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE To: bundle org.eclipse.cdt.debug.core 7.2.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE From: C/C++ Development Tools 8.0.2.201202111925 (org.eclipse.cdt.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE To: org.eclipse.cdt.platform.feature.group [8.0.2.201202111925]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-01-21 14:04:18.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE From: C/C++ Development Platform 8.0.2.201202111925 (org.eclipse.cdt.platform.feature.group 8.0.2.201202111925)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-01-21 14:04:18.173
+!MESSAGE To: org.eclipse.cdt.debug.core [7.1.0.201202111925]
+!SESSION 2019-01-21 14:07:18.368 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2019-01-21 14:12:08.591
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-01-21 14:12:27.652
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-01-21 14:12:27.652
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 14:12:27.652
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 14:12:27.652
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 14:12:27.652
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-01-21 14:12:27.652
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-01-21 14:12:27.652
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-01-21 14:12:27.652
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.652
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-01-21 14:12:27.653
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-01-21 14:12:27.653
+!MESSAGE OK
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-21 14:12:35.215
+!MESSAGE Indexed 'listas01' (1 sources, 46 headers) in 3,82 sec: 1.521 declarations; 2.158 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 14:44:39.997
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 16:07:11.166
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 17:21:43.214
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:32:37.850
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:40:57.048
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:43:46.175
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:44:57.131
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:45:26.629
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:49:52.954
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:51:39.815
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:52:11.301
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:52:53.470
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 18:56:14.859
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 19:02:03.011
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/listas01/Debug/listas01 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-01-21 19:51:17.359 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-21 19:51:58.857
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2019-01-21 19:52:24.029
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-01-21 19:52:39.342
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-01-21 19:52:39.342
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 19:52:39.342
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 19:52:39.342
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 19:52:39.342
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-01-21 19:52:39.342
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-01-21 19:52:39.342
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-01-21 19:52:39.342
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.342
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-01-21 19:52:39.343
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-01-21 19:52:39.343
+!MESSAGE OK
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-21 19:57:39.708
+!MESSAGE Indexed 'philas00' (0 sources, 35 headers) in 0,99 sec: 716 declarations; 915 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-21 19:59:39.544
+!MESSAGE Indexed 'Pilha00' (0 sources, 35 headers) in 0,40 sec: 716 declarations; 915 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 20:16:12.944
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha00/main.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 20:16:12.965
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha00/main.c": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha00/main.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2019-01-21 22:04:09.388
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/cristhian/Dropbox/workspaceED/Pilha00/Debug/Pilha00 not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-21 22:11:21.332
+!MESSAGE Indexed 'Pilha01' (0 sources, 35 headers) in 1,71 sec: 716 declarations; 915 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 22:22:04.977
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/main.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 22:22:04.978
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/main.c": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/main.c": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 22:22:26.455
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 22:22:26.456
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/makefile": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 22:23:17.078
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 22:23:17.078
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2019-01-21 22:23:25.380
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.processCompileUnit(DwarfReader.java:470)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.processDebugInfoEntry(DwarfReader.java:440)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfoEntry(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:386)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:362)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:385)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:363)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:309)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:279)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:265)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:265)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:239)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:89)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:232)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:275)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:94)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:139)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1367)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:391)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:917)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:620)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:818)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:797)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1500)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:952)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$4.treeExpanded(AbstractTreeViewer.java:1511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:132)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Tree.gtk_test_expand_row(Tree.java:2055)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1805)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4383)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8317)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1193)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3184)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2019-01-21 22:23:25.389
+!MESSAGE An exception occurred invoking extension: org.eclipse.cdt.ui.navigator.content for object main.o
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.processCompileUnit(DwarfReader.java:470)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.processDebugInfoEntry(DwarfReader.java:440)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfoEntry(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:386)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:362)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:385)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:363)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:309)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:279)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:265)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:265)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:239)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:89)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:232)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:275)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:94)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:139)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1367)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:391)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:917)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:620)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:818)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:797)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1500)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:952)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$4.treeExpanded(AbstractTreeViewer.java:1511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:132)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Tree.gtk_test_expand_row(Tree.java:2055)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1805)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4383)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8317)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1193)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3184)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2019-01-21 22:24:55.792
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2019-01-21 22:24:55.793
+!MESSAGE Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/cristhian/Dropbox/workspaceED/Pilha01/Debug/main.d": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:97)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:367)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-01-21 22:39:06.704 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-21 22:40:24.692
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2019-01-21 22:40:51.608
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-01-21 22:41:07.732
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-01-21 22:41:07.732
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-01-21 22:41:07.732
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-01-21 22:41:07.732
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.732
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.733
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.733
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-21 22:41:07.733
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-01-21 22:41:07.733
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-01-21 22:41:07.733
+!MESSAGE OK
+!SESSION 2019-01-22 00:44:47.667 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-22 00:46:19.662
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2019-01-22 00:47:05.531
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-01-22 00:47:42.203
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-01-22 00:47:42.203
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-22 00:47:42.203
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-22 00:47:42.203
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-22 00:47:42.203
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-01-22 00:47:42.203
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-01-22 00:47:42.203
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-01-22 00:47:42.204
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-01-22 00:47:42.204
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-01-22 00:47:42.204
+!MESSAGE OK

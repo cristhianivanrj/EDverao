@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+#include <stdio.h>
+#include "lista01.h"
+
+int main(int argc, char* argv[])
+{
+
+FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+insereFinalLst(1,argLista);
+
+}

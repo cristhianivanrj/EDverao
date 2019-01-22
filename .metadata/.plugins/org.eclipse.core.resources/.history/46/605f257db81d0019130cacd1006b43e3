@@ -1,0 +1,3 @@
+typedef struct FormatoLst Lista02; // Representa um nó da lista
+//Função de criação de lista
+Lista02* criarLista();

@@ -1,0 +1,32 @@
+/*
+ * pilha00.h
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+typedef struct elemento{
+	int info;
+	struct elemento * link;
+	}FormatoNo;
+
+
+typedef struct lista{
+	FormatoNo * IndIniLst;
+	FormatoNo * IndFimLst;
+}FormatoLst;
+
+
+typedef struct pilha{
+	FormatoLst * l;
+}FormatoPlha;
+
+
+
+//typedef struct pilha Pilha;
+//
+//Pilha* criar_pilha();
+//void push(Pilha* p, float v);
+//float pop(Pilha* p);
+//int vazia(Pilha* p);
+//void liberar(Pilha* p);

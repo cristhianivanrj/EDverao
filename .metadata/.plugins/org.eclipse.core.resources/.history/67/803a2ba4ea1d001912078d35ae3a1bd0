@@ -1,0 +1,151 @@
+/*
+ * Seudo.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+1. VERIFICAMOS SI EXISTE ESPACIO
+2. Incrementamos el topo de la fila
+3. aramazenar as informacoes nessa nova area
+
+<01> ALGORITMO Empilha
+<02>
+<03> Pilha				{Lista alocada sequencialmente em memoria}
+<04> PtrTop				{Indica a extremidade da pilha}
+<05> IndFimPhila		{Endereco maximo para alocacao da pilha }
+<06>
+<07> INICIO
+<08>	SE PtrTop = IndFimPilha
+<09>	ENTAO
+<10>		Overflow
+<11>	SENAO
+<12>		INICIO
+<13>			PtrTopo <- PtrTopo+1
+<14>			Pilha (PtrTopo)<-Informacao
+<15>		FIM
+<16> FIM
+<17>
+
+1. vERIFICAMOS QUE NO ESTE VAZIA
+2. Rescatamos  a informcaco na area
+3. Decrecemos el topo de la fila
+
+
+
+<01> ALGORITMO Desempilha
+<02>
+<03> Pilha				{Lista alocada sequencialmente em memoria}
+<04> PtrTop				{Indica a extremidade da pilha}
+<05> IndFimPhila		{Endereco maximo para alocacao da pilha }
+<06>
+<07> INICIO
+<08>	SE PtrTopo = 0
+<09>	ENTAO
+<10>		Underflow
+<11>	SENAO
+<12>		INÍCIO
+<13>			Informacao <- Pilha(PtrTopo)
+<14>			PtrTopo <-PtrTopo-1
+<15>		FIM
+<16> FIM
+
+
+FILA
+
+1. VERIFICAMOS SI EXISTE ESPACIO
+2. Incrementamos el topo de la fila
+3. aramazenar as informacoes nessa nova area
+
+<01> ALGORITMO Emfileira
+<02>
+<03> Fila 			{Lista alcada de forma secuancial}
+<04> PtrFrente 		{Indica a frente da fila}
+<05> PtrTras		{Indica o final da fila}
+<06> IndFimFila		{Endereco maximo para alocacao da Fila}
+<07>
+<08> INICIO
+<09>	SE PtrTras = IndFimFila
+<10>	ENTAO
+<11>		Overflow
+<12>	SENAO
+<13>		INICIO
+<14>			PrTras <-PtrTras +1
+<15>			Fila (PtrTras)<- Informacao
+<16> 		FIM
+<17> FIM
+
+
+
+<01> ALGORITMO Desemfileira
+<02>
+<03> Fila 			{Lista alcada de forma secuancial}
+<04> PtrFrente 		{Indica a frente da fila}
+<05> PtrTras		{Indica o final da fila}
+<06> IndFimFila		{Endereco maximo para alocacao da Fila}
+<07>
+<08> INICIO
+<09>	SE PtrFrente > PtrTrás
+<10>	ENTAO
+<11>		Underflow
+<12>	SENAO
+<13>		INICIO
+<14>			Informacao <- Fila(PtrFrente)
+<15>			PtrFrente <- PtrFrente +1
+<16> 		FIM
+<17> FIM
+
+
+
+
+<01> ALGORITMO EmFileiraCircular
+<02>
+<03> PtrTrasAux <- 1
+<04>
+<05> INICIO
+<06> 	SE PtrTrás = IndFimFIla
+<07>		ENTAO
+<08> 			PtrTrasAux  <-1
+<09>		SENAO
+<10>			PtrTras <- PtrTra +1
+<11>
+<12>	SE PtrTrasAux = PtrFrente
+<13>		ENTAO
+<14>			OverFlow
+<15>		SENAO
+<16>	INICIO
+<17>		PtrTras <-PtrTrasAux
+<18>		Fila (PtrTras) <- Informacao
+<19>
+<20>		SE PtrFrente =0
+<21>		ENTAO
+<22>			PtrFrente <-1
+<23>	FIM
+<24> FIM
+
+
+
+<01> ALGORITMO DesmFileiraCircular
+<02>
+<03> INICIO
+<04>	SE PtrFrente =0
+<05> 		Undelow
+<06> 	SENAO
+<07>		INICIO
+<08> 			Informacao <- Fila (PtrFrente)
+<09>			SE PtrFrente = PtrTras		{Fila ficou Vazia}
+<10>			ENTAO
+<11>				INICIO
+<12>					PtrFrente <-0
+<13>					PtrTras <-0
+<14>				FIM
+<15>			SENAO
+<16>				SE PtrFrente = IndFimFila
+<17>			ENTAO
+<18>				PtrFrente <-1
+<19>			SENAO
+<20>				PtrFrente <- PtrFrente +1
+<21>		FIM
+<22> FIM
+<23>
+<24>

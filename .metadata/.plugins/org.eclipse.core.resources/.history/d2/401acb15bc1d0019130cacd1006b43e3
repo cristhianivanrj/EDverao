@@ -1,0 +1,9 @@
+typedef struct elemento FormatoNo ; // Representa um nó da lista
+
+typedef struct lista FormatoLst; // Representa um nó da lista
+//Função de criação de lista
+FormatoLst* criarLista();
+
+int insereInicioLst(int valor, FormatoLst* argLista);
+void insereFinalLst(int valor, FormatoLst * argLista);
+int removeIndIniLst(FormatoLst * argLista);

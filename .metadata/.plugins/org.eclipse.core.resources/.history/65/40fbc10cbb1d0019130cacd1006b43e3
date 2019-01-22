@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+#include <stdio.h>
+#include "lista01.h"
+
+int main(int argc, char* argv[])
+{
+
+Lista * argLista = (Lista *)malloc(sizeof(Lista));
+
+}

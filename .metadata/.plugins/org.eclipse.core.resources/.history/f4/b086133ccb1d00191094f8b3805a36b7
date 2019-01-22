@@ -1,0 +1,233 @@
+/*
+ * pilha0.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//typedef struct elemento{
+//	int info;
+//	struct elemento * link;
+//}t_elemento;
+
+
+//typedef struct lista{
+//	t_elemento * IndIniLst;
+//	t_elemento * fim;
+//}t_lista;
+
+
+typedef struct pilha{
+	t_lista * l;
+}t_pilha;
+
+
+t_lista * criarLista(){
+   t_lista * nova = (t_lista *)malloc(sizeof(t_lista));
+   nova->IndIniLst = NULL;
+   nova->fim = NULL;
+   return nova;
+}
+
+
+
+t_pilha * criarPilha(){
+   t_pilha * novapilha = (t_pilha *)malloc(sizeof(t_pilha));
+   novapilha->l =  criarLista();
+   return novapilha;
+}
+
+int insereIndIniLst(int valor, t_lista * l){
+    t_elemento * novoprimeiro = (t_elemento *)malloc(sizeof(t_elemento));
+     novoprimeiro->info = valor;
+    novoprimeiro->link = l->IndIniLst;
+    l->IndIniLst = novoprimeiro;
+     if(l->fim == NULL){ //l->IndIniLst->link == NULL ou novoprimeiro->link == NULL
+         l->fim = l->IndIniLst;
+     }
+     return 0;
+}
+
+
+void insereFinal(int valor, t_lista * l){
+   t_elemento * novoultimo = (t_elemento *)malloc(sizeof(t_elemento));
+   novoultimo->info = valor;
+   novoultimo->link = NULL;
+   if(l->IndIniLst == NULL){
+      l->IndIniLst = novoultimo;
+   }else{
+      l->fim->link = novoultimo;
+   }
+   l->fim = novoultimo;
+
+
+}
+
+int removeIndIniLst(t_lista * l){
+    if(l->IndIniLst == NULL){
+       return -1;
+    }
+    int tmp = l->IndIniLst->info;
+    t_elemento * removido = l->IndIniLst;
+    l->IndIniLst = l->IndIniLst->link;
+    free(removido);
+    if(l->IndIniLst == NULL){
+        l->fim = NULL;
+    }
+    return tmp;
+}
+
+int estaVazia(t_lista * l){
+    if(l->IndIniLst == NULL){
+       return 1;
+    }
+    return 0;
+}
+
+int removeFinal(t_lista * l){
+    if(l->IndIniLst == NULL){
+       return -1;
+    }
+    int tmp = l->fim->info;
+    t_elemento * ultimo = l->IndIniLst;
+    t_elemento * penultimo = NULL;
+    while(ultimo->link != NULL){
+         penultimo = ultimo;
+         ultimo = ultimo->link;
+    }
+    if(penultimo != NULL){
+       penultimo->link = NULL;
+       l->fim = penultimo;
+
+    }else{//lista possui apenas um elemento
+        l->IndIniLst = NULL;
+        l->fim = NULL;
+    }
+    free(ultimo);
+    return tmp;
+
+}
+
+void inserir(int pos, int valor, t_lista * l){
+     if( pos <= 0){
+        insereIndIniLst(valor,l);
+     }else{
+         t_elemento * atual = l->IndIniLst;
+         int i = 0;
+         for(i = 0; i < (pos-1) && atual != NULL ;i++){
+               atual = atual->link;
+         }
+         if(atual == NULL || atual == l->fim){
+              insereFinal(valor,l);
+         } else{
+              t_elemento * novo = (t_elemento *)malloc(sizeof(t_elemento));
+              novo->info = valor;
+              novo->link = atual->link;
+              atual->link = novo;
+         }
+     }
+}
+
+
+int remover(int pos, t_lista * l){
+	if(estaVazia(l)){
+		return -1;
+	}
+	if(pos < 0){
+		return -1;
+	}
+	t_elemento * removido = l->IndIniLst;
+	t_elemento * ant_removido = NULL;
+	int i = 0;
+	for (i = 0; i < pos && removido != NULL; i++) {
+		ant_removido = removido;
+		removido = removido->link;
+	}
+	if(removido != NULL){
+		if(removido == l->IndIniLst){
+			l->IndIniLst = removido->link;
+		}else{
+			ant_removido->link = removido->link;
+		}
+		if(removido == l->fim){
+			l->fim = ant_removido;
+		}
+		int tmp = removido->info;
+		free(removido);
+		return tmp;
+	}
+	return -1;
+}
+
+
+void empilhar(int valor, t_pilha * p){
+    insereIndIniLst(valor, p->l);
+}
+
+
+int desempilhar(t_pilha * p){
+    return removeIndIniLst(p->l);
+}
+
+
+int estaVaziaPilha(t_pilha * p){
+    if(p->l->IndIniLst == NULL){
+       return 1;
+   }
+   return 0;
+}
+
+int main (int argc, char *argv[]){
+    /*t_lista * l = (t_lista *)malloc(sizeof(t_lista));
+    insereFinal(1,l);
+    insereFinal(2,l);
+    insereFinal(3,l);
+    inserir(2,30,l);
+    //printf("Numero removido pos 2: %d\n",remover(2,l));
+
+    while(!estaVazia(l)){
+       int rmv = removeIndIniLst(l);
+       printf("Numero removido: %d\n",rmv);
+    }*/
+    t_pilha * p1 = criarPilha();
+    empilhar(1,p1);
+    empilhar(2,p1);
+    while(!estaVaziaPilha(p1)){
+      printf("Numero desempilhado: %d\n",desempilhar(p1));
+   }
+
+
+    printf("FIM!!!\n");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
