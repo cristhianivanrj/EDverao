@@ -1,28 +1,21 @@
-/*
- * lista01.c
- *
- *  Created on: 21/01/2019
- *      Author: cristhian
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include "lista01.h"
 
-
-int insereIndIniLstLst(int valor, FormatoLst* argLista){
+int insereInicio(int valor, FormatoLst* argLista){
     FormatoNo * novoElemento = (FormatoNo *)malloc(sizeof(FormatoNo));
     novoElemento->Info = valor;
     novoElemento->Link = argLista->IndIniLst;
     argLista->IndIniLst = novoElemento;
-     if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
-    	 argLista->IndIndFimLstLst = argLista->IndIniLst;
-    	 printf("insereIndIniLstLst: Condição dada quando a lista está vazia antes de inserir um elemento. \n");
+     if(argLista->IndFimLst== NULL){
+    	 argLista->IndFimLst= argLista->IndIniLst;
+    	 printf("insereInicio: Condição dada quando a lista está vazia antes de inserir um elemento. \n");
      }
      return 0;
 }
 
 
-void insereFinalLst(int valor, FormatoLst * argLista){
+void insereFinal(int valor, FormatoLst * argLista){
    FormatoNo * novoElemento = (FormatoNo *)malloc(sizeof(FormatoNo));
    novoElemento->Info = valor;
    novoElemento->Link = NULL;
@@ -31,12 +24,12 @@ void insereFinalLst(int valor, FormatoLst * argLista){
 	   printf("insereFinalLst: Condição dada quando a lista está vazia antes de inserir um elemento \n");
    }
    else{
-      argLista->IndIndFimLstLst->Link = novoElemento;
+      argLista->IndFimLst->Link = novoElemento;
    }
-   argLista->IndIndFimLstLst = novoElemento;
+   argLista->IndFimLst = novoElemento;
 }
 
-int removeInLst(FormatoLst * argLista){
+int removeInicio(FormatoLst * argLista){
     if(argLista->IndIniLst == NULL){
        return -1;
     }
@@ -45,7 +38,7 @@ int removeInLst(FormatoLst * argLista){
     argLista->IndIniLst = argLista->IndIniLst->Link;
     free(removido);
     if(argLista->IndIniLst == NULL){
-    	argLista->IndIndFimLstLst = NULL;
+    	argLista->IndFimLst= NULL;
     }
     return tmp;
 }
@@ -61,7 +54,7 @@ int removeFinal(FormatoLst * argLista){
     if(argLista->IndIniLst == NULL){
        return -1;
     }
-    int tmp = argLista->IndIndFimLstLst->Info;
+    int tmp = argLista->IndFimLst->Info;
     FormatoNo * ultimo = argLista->IndIniLst;
     FormatoNo * penultimo = NULL;
     while(ultimo->Link != NULL){
@@ -70,11 +63,11 @@ int removeFinal(FormatoLst * argLista){
     }
     if(penultimo != NULL){
        penultimo->Link = NULL;
-       argLista->IndIndFimLstLst = penultimo;
+       argLista->IndFimLst = penultimo;
 
     }else{//lista possui apenas um elemento
     	argLista->IndIniLst = NULL;
-    	argLista->IndIndFimLstLst = NULL;
+    	argLista->IndFimLst = NULL;
     }
     free(ultimo);
     return tmp;
@@ -83,15 +76,15 @@ int removeFinal(FormatoLst * argLista){
 
 void inserir(int pos, int valor, FormatoLst * argLista){
      if( pos <= 0){
-        insereIndIniLstLst(valor,argLista);
+        insereInicio(valor,argLista);
      }else{
          FormatoNo * atual = argLista->IndIniLst;
          int i = 0;
          for(i = 0; i < (pos-1) && atual != NULL ;i++){
                atual = atual->Link;
          }
-         if(atual == NULL || atual == argLista->IndIndFimLstLst){
-              insereFinalLst(valor,argLista);
+         if(atual == NULL || atual == argLista->IndFimLst){
+              insereFinal(valor,argLista);
          } else{
               FormatoNo * novo = (FormatoNo *)malloc(sizeof(FormatoNo));
               novo->Info = valor;
@@ -122,8 +115,8 @@ int remover(int pos, FormatoLst * argLista){
 		}else{
 			ant_removido->Link = removido->Link;
 		}
-		if(removido == argLista->IndIndFimLstLst){
-			argLista->IndIndFimLstLst = ant_removido;
+		if(removido == argLista->IndFimLst){
+			argLista->IndFimLst = ant_removido;
 		}
 		int tmp = removido->Info;
 		free(removido);
@@ -144,8 +137,8 @@ int busca(int valor, FormatoLst * argLista){
         return -1;
     }else if (atual == argLista->IndIniLst){
         return atual->Info;
-    }else if (atual == argLista->IndIndFimLstLst){
-    	argLista->IndIndFimLstLst = anterior;
+    }else if (atual == argLista->IndFimLst){
+    	argLista->IndFimLst = anterior;
     }
     anterior->Link = atual->Link;
     atual->Link = argLista->IndIniLst;
@@ -165,7 +158,7 @@ int busca1(int valor, FormatoLst * argLista){
         return -1;
     }
     int ret = remover(cont,argLista);
-    insereIndIniLstLst(ret,argLista);
+    insereInicio(ret,argLista);
     return ret;
 
 }

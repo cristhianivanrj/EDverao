@@ -3563,3 +3563,771 @@ Finished building target: Pilha01
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereIndIniLstLst’:
+../lista01.c:17:17: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      if(argLista->IndIndFimLstLst == NULL){ //l->IndIniLst->Link == NULL ou novoElemento->Link == NULL
+                 ^~
+../lista01.c:18:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst = argLista->IndIniLst;
+               ^~
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:34:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:36:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:48:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:64:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:73:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+                ^~
+../lista01.c:77:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:93:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:125:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:126:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:147:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:148:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘insereFinalLst’:
+../lista01.c:28:15: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+       argLista->IndIndFimLstLst->Link = novoElemento;
+               ^~
+../lista01.c:30:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = novoElemento;
+            ^~
+../lista01.c: In function ‘removeInLst’:
+../lista01.c:42:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘removeFinal’:
+../lista01.c:58:23: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     int tmp = argLista->IndIndFimLstLst->Info;
+                       ^~
+../lista01.c:67:16: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+        argLista->IndIndFimLstLst = penultimo;
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+                ^~
+../lista01.c:71:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = NULL;
+              ^~
+../lista01.c: In function ‘inserir’:
+../lista01.c:80:9: warning: implicit declaration of function ‘insereIndIniLstLst’ [-Wimplicit-function-declaration]
+         insereIndIniLstLst(valor,argLista);
+         ^~~~~~~~~~~~~~~~~~
+../lista01.c:87:47: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+          if(atual == NULL || atual == argLista->IndIndFimLstLst){
+                                               ^~
+../lista01.c: In function ‘remover’:
+../lista01.c:119:26: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+   if(removido == argLista->IndIndFimLstLst){
+                          ^~
+../lista01.c:120:12: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+    argLista->IndIndFimLstLst = ant_removido;
+            ^~
+../lista01.c: In function ‘busca’:
+../lista01.c:141:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:142:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘inserir’:
+../lista01.c:80:9: warning: implicit declaration of function ‘insereIndIniLstLst’ [-Wimplicit-function-declaration]
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+         insereIndIniLstLst(valor,argLista);
+         ^~~~~~~~~~~~~~~~~~
+../lista01.c: In function ‘busca’:
+../lista01.c:141:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:142:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘inserir’:
+../lista01.c:80:9: warning: implicit declaration of function ‘insereIndIniLstLst’ [-Wimplicit-function-declaration]
+         insereIndIniLstLst(valor,argLista);
+         ^~~~~~~~~~~~~~~~~~
+../lista01.c: In function ‘busca’:
+../lista01.c:141:32: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+     }else if (atual == argLista->IndIndFimLstLst){
+                                ^~
+../lista01.c:142:14: error: ‘FormatoLst {aka struct lista}’ has no member named ‘IndIndFimLstLst’; did you mean ‘IndIniLst’?
+subdir.mk:21: fallo en las instrucciones para el objetivo 'lista01.o'
+      argLista->IndIndFimLstLst = anterior;
+              ^~
+make: *** [lista01.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘inserir’:
+../lista01.c:80:9: warning: implicit declaration of function ‘insereIndIniLstLst’ [-Wimplicit-function-declaration]
+         insereIndIniLstLst(valor,argLista);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:15:1: warning: implicit declaration of function ‘insereIndIniLstLst’ [-Wimplicit-function-declaration]
+ insereIndIniLstLst(5,argLista);
+ ^~~~~~~~~~~~~~~~~~
+../main.c:16:1: warning: implicit declaration of function ‘insereFinalLst’ [-Wimplicit-function-declaration]
+ insereFinalLst(1,argLista);
+ ^~~~~~~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+./lista01.o: En la función `inserir':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../lista01.c:80: referencia a `insereIndIniLstLst' sin definir
+makefile:29: fallo en las instrucciones para el objetivo 'listas01'
+./lista01.o: En la función `busca1':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../lista01.c:162: referencia a `insereIndIniLstLst' sin definir
+./main.o: En la función `main':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../main.c:15: referencia a `insereIndIniLstLst' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [listas01] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+./main.o: En la función `main':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../main.c:15: referencia a `insereIndIniLstLst' sin definir
+makefile:29: fallo en las instrucciones para el objetivo 'listas01'
+collect2: error: ld returned 1 exit status
+make: *** [listas01] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../pilha01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha01.d" -MT"pilha01.d" -o "pilha01.o" "../pilha01.c"
+Finished building: ../pilha01.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+./main.o: En la función `main':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../main.c:15: referencia a `insereIndIniLstLst' sin definir
+collect2: error: ld returned 1 exit status
+makefile:29: fallo en las instrucciones para el objetivo 'listas01'
+make: *** [listas01] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:16:1: warning: implicit declaration of function ‘insereFinalLst’ [-Wimplicit-function-declaration]
+ insereFinalLst(1,argLista);
+ ^~~~~~~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+../lista01.c: In function ‘inserir’:
+../lista01.c:88:15: warning: implicit declaration of function ‘insereFinalLst’ [-Wimplicit-function-declaration]
+               insereFinalLst(valor,argLista);
+               ^~~~~~~~~~~~~~
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+./lista01.o: En la función `inserir':
+/home/cristhian/Dropbox/workspaceED/listas01/Debug/../lista01.c:88: referencia a `insereFinalLst' sin definir
+collect2: error: ld returned 1 exit status
+makefile:29: fallo en las instrucciones para el objetivo 'listas01'
+make: *** [listas01] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building file: ../lista01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lista01.d" -MT"lista01.d" -o "lista01.o" "../lista01.c"
+Finished building: ../lista01.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+Building target: listas01
+Invoking: GCC C Linker
+gcc  -o "listas01"  ./lista01.o ./main.o   
+Finished building target: listas01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../pilha0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pilha0.d" -MT"pilha0.d" -o "pilha0.o" "../pilha0.c"
+Finished building: ../pilha0.c
+ 
+Building target: Pilha00
+Invoking: GCC C Linker
+gcc  -o "Pilha00"  ./main.o ./pilha0.o   
+Finished building target: Pilha00
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha01 ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Pilha01
+Invoking: GCC C Linker
+gcc  -o "Pilha01"  ./main.o ./pilha01.o   
+Finished building target: Pilha01
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas01 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pilha00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project listas00 ****
+
+make all 
+make: No se hace nada para 'all'.
+
+**** Build Finished ****

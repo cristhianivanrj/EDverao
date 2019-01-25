@@ -1,9 +1,4 @@
-/*
- * pilha01.h
- *
- *  Created on: 21/01/2019
- *      Author: cristhian
- */
+
 
 typedef struct lista Lista;
 typedef struct pilha Pilha;

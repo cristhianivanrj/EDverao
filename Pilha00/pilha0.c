@@ -1,14 +1,6 @@
-/*
- * pilha0.c
- *
- *  Created on: 21/01/2019
- *      Author: cristhian
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "pilha00.h"
-
 
 FormatoLst * criarLista(){
    FormatoLst * nova = (FormatoLst *)malloc(sizeof(FormatoLst));

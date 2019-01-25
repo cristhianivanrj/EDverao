@@ -1,9 +1,3 @@
-/*
- * main.c
- *
- *  Created on: 21/01/2019
- *      Author: cristhian R
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include "lista01.h"
@@ -12,10 +6,10 @@ int main(int argc, char* argv[])
 {
 
 FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
-insereIndIniLstLst(5,argLista);
-insereFinalLst(1,argLista);
-insereFinalLst(5,argLista);
-insereFinalLst(15,argLista);
+insereInicio(5,argLista);
+insereFinal(1,argLista);
+insereFinal(5,argLista);
+insereFinal(15,argLista);
 imprimeLista(argLista);
 inserir(1,30,argLista);
 imprimeLista(argLista);

@@ -1,0 +1,27 @@
+/*
+ * main.c
+ *
+ *  Created on: 21/01/2019
+ *      Author: cristhian R
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include "lista01.h"
+
+int main(int argc, char* argv[])
+{
+
+FormatoLst * argLista = (FormatoLst *)malloc(sizeof(FormatoLst));
+insereInicio(5,argLista);
+insereFinalLst(1,argLista);
+insereFinalLst(5,argLista);
+insereFinalLst(15,argLista);
+imprimeLista(argLista);
+inserir(1,30,argLista);
+imprimeLista(argLista);
+printf("Busca pelo 30: %d\n",busca1(30,argLista));
+imprimeLista(argLista);
+printf("Numero removido pos 2: %d\n",remover(2,argLista));
+imprimeLista(argLista);
+printf("IndFimLstLst!!!\n");
+}
